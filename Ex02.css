@@ -1,0 +1,55 @@
+* {
+    font-family: "Atkinson Hyperlegible Next";
+    font-weight: 700;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background: rgb(61, 59, 97);
+    background: linear-gradient(43deg, rgba(61, 59, 97, 1) 0%, rgba(80, 64, 93, 1) 81%, rgba(81, 71, 98, 1) 100%);
+    padding-top:30px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:30px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    color: white;
+    position: relative;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    background-color: transparent;
+}
+.form-container textarea {
+    height: 100px;
+}
+.form-container button {
+    background: white;
+    color: black;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.form-container button:hover {
+    background: lightgray;
+}
+.name-container{
+    display: flex; gap: 20px;
+}
+.name-container div{
+    flex: 1;
+}

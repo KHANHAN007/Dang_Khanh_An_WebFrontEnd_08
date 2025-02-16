@@ -1,0 +1,46 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    padding:20px
+}
+h2 {
+    display: inline;
+    border-bottom: 3px solid #f56b6b;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+.grid{
+    width: calc(50% - 10px);
+}
+.grid .icon {
+    position: relative;
+    top: 30px;
+}
+.grid .icon .diamond {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    position: relative;
+    transform: rotate(45deg);
+    border: 1px solid #edeff0;
+}
+
+.grid .icon img {
+    width: 50px;
+    position: relative;
+    top: -71px;
+    left: 25px;
+}
+.grid p{
+    padding-top: 10px;
+}
